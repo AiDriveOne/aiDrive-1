@@ -1,0 +1,35 @@
+# Ignore all below list
+myMongoDB/somefile.txt
+Node.js/anotherfile.js
+myMongoDB/
+Node.js/
+myfile.py
+
+# Ignore Node.js modules
+node_modules/
+
+# Ignore log files
+logs/
+
+# Ignore environment files
+.env
+
+# Ignore configuration files
+config/
+
+# Ignore database files
+*.db
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore text editor files
+*.swp
+*.swo
+*.swn
+
+# Ignore test files
+test/
+tests/
+__tests__/

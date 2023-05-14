@@ -1,0 +1,18 @@
+// Define a function to generate voice output
+function generateVoice(text) {
+  // Create a SpeechSynthesisUtterance object
+  var speech = new SpeechSynthesisUtterance();
+  
+  // Set the text to be spoken
+  speech.text = text;
+  
+  // Set additional properties (optional)
+  speech.lang = 'en-US'; // Set the language
+  
+  // Speak the text
+  window.speechSynthesis.speak(speech);
+}
+
+// Usage example
+var text = "Hello, how are you today?";
+generateVoice(text);

@@ -1,0 +1,11 @@
+input_text,output_text
+"What is the capital of France?", "The capital of France is Paris."
+"Explain object-oriented programming.", "Object-oriented programming (OOP) is a programming paradigm that organizes code into objects, which are instances of classes. It promotes modularity, reusability, and encapsulation of data and methods."
+"Can you provide an example of a for loop?", "Sure! Here's an example of a for loop in Python:\n\n```\nfor i in range(1, 6):\n    print(i)\n```\n\nThis loop will print the numbers from 1 to 5."
+"What are the different data types in JavaScript?", "JavaScript has several data types, including string, number, boolean, null, undefined, object, and symbol."
+"Explain the concept of recursion.", "Recursion is a programming technique where a function calls itself to solve a problem. It involves breaking down a problem into smaller, similar subproblems until a base case is reached."
+"What is the significance of Big O notation?", "Big O notation is used to analyze the efficiency and scalability of algorithms. It describes the worst-case time complexity of an algorithm in terms of the input size."
+"Can you explain the concept of polymorphism?", "Polymorphism is a feature in object-oriented programming that allows objects of different classes to be treated as objects of a common superclass. It enables the same method name to be used in different classes, but with different implementations."
+"What is the difference between SQL and NoSQL databases?", "SQL databases are relational databases that use structured query language for defining and manipulating data. NoSQL databases, on the other hand, are non-relational databases that provide flexible data models and scalability options."
+"Explain the concept of machine learning.", "Machine learning is a field of artificial intelligence that involves training algorithms to learn patterns from data and make predictions or decisions without being explicitly programmed."
+"What are the basic data structures in Python?", "Python provides several built-in data structures, including lists, tuples, sets, and dictionaries, that can be used to store and manipulate data in different ways."

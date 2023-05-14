@@ -1,0 +1,84 @@
+ad_id,ad_type,text,image_filename,slogan,cta
+1,banner,"Check out our latest products!","banner1.jpg","Discover the future of technology","Shop now"
+2,social,"Join us for the biggest sale of the season!","social1.jpg","Limited time offer","Learn more"
+3,video,"Experience the power of aiDrive","video1.mp4","Unleash your potential","Watch now"
+
+# Prompt the user for social media links
+facebook_link = input("Enter your Facebook link: ")
+twitter_link = input("Enter your Twitter link: ")
+instagram_link = input("Enter your Instagram link: ")
+linkedin_link = input("Enter your LinkedIn link: ")
+tiktok_link = input("Enter your TikTok link: ")
+
+# Store the social media links in a list
+social_media_links = [facebook_link, twitter_link, instagram_link, linkedin_link, tiktok_link]
+
+# Print the entered social media links
+print("Social Media Links:")
+for link in social_media_links:
+    print(link)
+
+# Prompt the user for text input
+ad_text = input("Enter the text for the ad: ")
+image_caption = input("Enter the caption for the image: ")
+video_description = input("Enter the description for the video: ")
+
+# Generate ads, images, and videos based on the input
+generate_ad(ad_text)
+create_image(image_caption)
+produce_video(video_description)
+
+# Function to generate ads
+def generate_ad(text):
+    # Code to generate the ad based on the text input
+    print("Ad generated successfully!")
+
+# Function to create images
+def create_image(caption):
+    # Code to create an image with the provided caption
+    print("Image created successfully!")
+
+# Function to produce videos
+def produce_video(description):
+    # Code to produce a video with the provided description
+    print("Video produced successfully!")
+
+# Prompt the user for social media links
+facebook_link = input("Enter your Facebook link: ")
+twitter_link = input("Enter your Twitter link: ")
+instagram_link = input("Enter your Instagram link: ")
+linkedin_link = input("Enter your LinkedIn link: ")
+tiktok_link = input("Enter your TikTok link: ")
+
+# Store the social media links in a list
+social_media_links = [facebook_link, twitter_link, instagram_link, linkedin_link, tiktok_link]
+
+# Print the entered social media links
+print("Social Media Links:")
+for link in social_media_links:
+    print(link)
+
+# Prompt the user for text input
+ad_text = input("Enter the text for the ad: ")
+image_caption = input("Enter the caption for the image: ")
+video_description = input("Enter the description for the video: ")
+
+# Generate ads, images, and videos based on the input
+generate_ad(ad_text)
+create_image(image_caption)
+produce_video(video_description)
+
+# Function to generate ads
+def generate_ad(text):
+    # Code to generate the ad based on the text input
+    print("Ad generated successfully!")
+
+# Function to create images
+def create_image(caption):
+    # Code to create an image with the provided caption
+    print("Image created successfully!")
+
+# Function to produce videos
+def produce_video(description):
+    # Code to produce a video with the provided description
+    print("Video produced successfully!")

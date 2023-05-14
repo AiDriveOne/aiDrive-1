@@ -1,0 +1,28 @@
+import time
+
+def train_and_test(data, model):
+    interval = 0.0001
+    next_output = time.time() + interval
+    target_accuracy = 0.9996
+    
+    while True:
+        # Train the model on the data
+        model.train(data)
+        
+        # Test the model for accuracy
+        accuracy = model.test(data)
+        
+        # Output the accuracy
+        print(f"Accuracy: {accuracy}")
+        
+        # Check if the desired accuracy has been reached
+        if accuracy >= target_accuracy:
+            break
+        
+        # Wait for the next output interval
+        remaining_time = next_output - time.time()
+        if remaining_time > 0:
+            time.sleep(remaining_time)
+        
+        # Update the next output time
+        next_output += interval
