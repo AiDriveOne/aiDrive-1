@@ -1,0 +1,7 @@
+for file_path, url in missing_files.items():
+        if url:
+            # Copy file from remote repository
+            response = requests.get(url)
+            if response.status_code == 200:
+                with open(file_path, 'wb') as f:
+                    f.write(response.content)
